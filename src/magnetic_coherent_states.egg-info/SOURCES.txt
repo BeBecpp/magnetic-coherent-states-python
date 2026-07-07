@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/magnetic_coherent_states/__init__.py
+src/magnetic_coherent_states/cli.py
+src/magnetic_coherent_states/core.py
+src/magnetic_coherent_states/plotting.py
+src/magnetic_coherent_states.egg-info/PKG-INFO
+src/magnetic_coherent_states.egg-info/SOURCES.txt
+src/magnetic_coherent_states.egg-info/dependency_links.txt
+src/magnetic_coherent_states.egg-info/entry_points.txt
+src/magnetic_coherent_states.egg-info/requires.txt
+src/magnetic_coherent_states.egg-info/top_level.txt
+tests/test_core.py

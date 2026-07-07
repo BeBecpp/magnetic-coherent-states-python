@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the mathematical references listed in docs/paper_summary.md."
+title: "Magnetic Coherent States Python"
+authors:
+  - family-names: "Enkhtulga"
+    given-names: "Bayarbayasgalan"
+version: "0.2.0"
+date-released: "2026-07-07"

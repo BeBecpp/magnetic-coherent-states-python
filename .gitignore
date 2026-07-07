@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+outputs/*.npz
+outputs/*.csv
+outputs/density_*.png
+outputs/magnetic_field.png
+outputs/center_trajectory.png
+outputs/classical_guiding_center.png
+outputs/hbar_sweep.csv
+outputs/hbar_sweep_*.png

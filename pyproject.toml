@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magnetic-coherent-states"
+version = "0.2.0"
+description = "Numerical experiments for magnetic coherent-state dynamics."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Bayarbayasgalan Enkhtulga" }
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "tqdm>=4.66"
+]
+
+[project.scripts]
+magnetic-coherent-demo = "magnetic_coherent_states.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

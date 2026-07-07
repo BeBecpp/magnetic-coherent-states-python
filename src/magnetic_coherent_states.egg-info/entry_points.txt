@@ -1,0 +1,2 @@
+[console_scripts]
+magnetic-coherent-demo = magnetic_coherent_states.cli:main

@@ -1,0 +1,43 @@
+"""Numerical tools for magnetic coherent-state experiments."""
+
+from .core import (
+    Array,
+    Grid2D,
+    RealArray,
+    build_magnetic_hamiltonian,
+    build_magnetic_laplacian,
+    center_of_mass,
+    coherent_state,
+    density,
+    discrete_inner_product,
+    evolve,
+    is_hermitian,
+    l2_mass,
+    magnetic_field_reference,
+    normalize,
+    participation_ratio,
+    save_npz,
+    vector_potential_reference,
+    variance,
+)
+
+__all__ = [
+    "Array",
+    "Grid2D",
+    "RealArray",
+    "build_magnetic_hamiltonian",
+    "build_magnetic_laplacian",
+    "center_of_mass",
+    "coherent_state",
+    "density",
+    "discrete_inner_product",
+    "evolve",
+    "is_hermitian",
+    "l2_mass",
+    "magnetic_field_reference",
+    "normalize",
+    "participation_ratio",
+    "save_npz",
+    "vector_potential_reference",
+    "variance",
+]
